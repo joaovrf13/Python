@@ -1,0 +1,5 @@
+arquivo = open("texto2.txt")
+print(arquivo.read())
+arquivo.seek(0)
+print(arquivo.read())
+arquivo.close()
